@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #A7D9CB;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mint-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-text {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text h1 {
+    margin: 0;
+    font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-text p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.large-mint-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.search-instruction {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.search-input {
+    position: absolute;
+    /* 변경 */
+    left: 20px;
+    /* 추가 */
+    right: 20px;
+    /* 추가 */
+    bottom: 20px;
+    /* 추가 */
+    width: calc(100% - 40px);
+    /* 변경 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* 추가 */
 }

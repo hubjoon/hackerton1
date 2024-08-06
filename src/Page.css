@@ -1,0 +1,131 @@
+.container {
+    background: #FFFFFF;
+}
+
+.page .mint {
+    border-radius: 10.7px;
+    background: url('C:/Users/higer/OneDrive/바탕 화면/yongin/hackerton/src/Mint (1).jpeg') 50% / cover no-repeat;
+
+    position: absolute;
+    left: 12px;
+    top: 236px;
+    width: 96px;
+    height: 94px;
+}
+
+.page .container-1 {
+    position: absolute;
+    top: 208px;
+    right: 37px;
+    width: 252px;
+    height: 28px;
+}
+
+.page .container-2 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: #b83333;
+}
+
+.page .container-3 {
+    position: absolute;
+    top: 255px;
+    right: 53.5px;
+    width: 261px;
+    height: 40px;
+}
+
+.page .container-4 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.818;
+    color: #000000;
+}
+
+.page .container-5 {
+    position: absolute;
+    left: 115px;
+    bottom: 275px;
+    width: 182px;
+    height: 40px;
+}
+
+.page .container-6 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.818;
+    color: #000000;
+}
+
+.page .container-7 {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+    background: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+}
+
+.page .title {
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.846;
+    color: #000000;
+}
+
+.page .mint-1 {
+    border-radius: 10.7px;
+    background: url('C:/Users/higer/OneDrive/바탕 화면/yongin/hackerton/src/Mint (1).jpeg') 50% / cover no-repeat;
+    position: absolute;
+    left: 83px;
+    bottom: 11px;
+    width: 36px;
+    height: 36px;
+}
+
+.page .mintstorymint-com {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #F2F2F0;
+    position: absolute;
+    left: 11px;
+    right: 33px;
+    bottom: 225px;
+    padding: 7px 11px;
+    box-sizing: border-box;
+}
+
+.page .mintstorymint-com-1 {
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.429;
+    color: rgba(0, 0, 0, 0.5);
+}
