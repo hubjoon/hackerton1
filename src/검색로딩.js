@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App2.css';
+import './검색로딩.css';
 
 function App2() {
     const [loading, setLoading] = useState(false);
